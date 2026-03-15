@@ -1,7 +1,6 @@
 package com.perfdog.test;
 
 import com.perfdog.config.TestRunner;
-import com.perfdog.model.CreateUserResponseDTO;
 import com.perfdog.model.UserDTO;
 import com.perfdog.request.RequestBuilder;
 import io.restassured.response.Response;
