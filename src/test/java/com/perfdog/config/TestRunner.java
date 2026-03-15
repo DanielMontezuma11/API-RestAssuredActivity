@@ -16,10 +16,14 @@ public class TestRunner {
     @Getter
     private static String baseurl;
 
+    @Getter
+    private static String apikey;
+
     @BeforeSuite
     public void setUpEnviroment(){
         loadProperties();
         baseurl = PROPERTIES.getProperty("url.base");
+        apikey = PROPERTIES.getProperty("apikey");
     }
 
     private void loadProperties(){
